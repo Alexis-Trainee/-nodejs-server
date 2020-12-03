@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1030px) {
+
+    #containerForm {
+        margin-top: 145px; 
+    }
+
+    .informationField {
+        height: 55px;
+        width: 45%;
+        font-size: 20px;
+    }
+
+    .checkbox {
+        width: 349px;
+        font-size: 25px;
+        text-align: initial;
+    }
+
+}/*end @mediaQuery 1030px*/
+
+@media only screen and (max-width: 600px) {
+
+    section {
+
+    }
+
+    #container {
+        height: 590px;
+    }
+
+    form {
+
+    }
+
+
+    #containerForm {
+        margin-top: 40px;
+    }
+
+    .register {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .informationField {
+        height: 50px;
+        width: 70%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .checkbox {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    #contact {
+        margin-top: 0;
+    }
+
+}/*end of @mediaQuery 600px*/
+
+@media only screen and (max-width: 390px) {
+
+    section {
+
+    }
+
+    #container {
+        height: 590px;
+    }
+
+    form {
+
+    }
+
+    .checkbox {
+        font-size: 20px;
+        width: 280px;
+    }
+
+    #contact {
+        margin-top: -10px;
+    }
+
+    #submit {
+        margin-top: 0;
+        height: 40px;
+        width: 100px;
+    }
+
+}/*end of @mediaQuery 390px*/

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>página de captura</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="@mediaQuery.css" media="screen"/>
+    <link rel="sortcut icon" href="solar-cym.png" type="image/png" />
+    <meta >
+  </head>
+  <body>
+
+    <header>
+      <h1>
+        Preencha o formulário abaixo para receber seu Orçamento 100% Grátis de Energia Solar!
+      </h1>
+      <p class="economyPromise">
+        Chegou a hora de<span class="economyPromise"> Economizar até 95% da Fatura de Luz</span> todo Mês!
+      </p>
+      <p>
+        <span id="deadline"> Carência</span> de até 120 dias para o primeiro pagamento no Boleto!!
+      </p>
+      <p>
+        SOLICITE SEU ORÇAMENTO GRATUITO AGORA:
+      </p>
+    </header>
+
+    <section>
+      <div id="container">
+        <div id="containerForm">
+          <form method="GET" action="">
+
+            <div class="register">
+              <input class="informationField" id="name" name"userName" type="text" placeholder="Nome Completo" required>
+              <input class="informationField" id="email" name"email" type="email" placeholder="Email" required>
+            </div>
+
+            <div class="register">
+              <input class="informationField" id="telefone" name"phone" type="tel" placeholder="Telefone com o DDD" required>
+              <select class="informationField" name="interest" required>
+                <option class="questionColor" value="" disabled selected>Qual o Tipo de Unidade Consumidora?</option>
+                <option value="residence">RESIDÊNCIA</option>
+                <option value="commerce">COMÉRCIO</option>
+                <option value="agro">AGRO</option>
+              </select>
+            </div>
+
+            <div class="register">
+              <input class="informationField" id="Kwh" name"Kwh" type="text" placeholder="Consumo mensal de energia em Kwh" required>
+
+              <select class="informationField" name="interest" required>
+                <option class="questionColor" value="" disabled selected>Qual seu grau de interesse?</option>
+                <option value="compraria-ja">COMPRARIA JÁ</option>
+                <option value="interessado">INTERESSADO</option>
+                <option value="não-sei">NÃO SEI</option>
+              </select>
+            </div>
+
+            <div class="checkbox">
+              <p id="contact">Como pretende ser contactado?</p>
+              <input type="checkbox" name="contactOption" value="WhatsApp">WhatsApp<br>
+              <input type="checkbox" name="contactOption" value="E-mail">E-mail<br>
+              <input type="checkbox" name="contactOption" value="Ligação" >Ligação<br>
+            </div>
+
+            <div class="register">
+              <input id="submit" type="submit" value="ENVIAR" onclick="confirmation()" disabled="disabled">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="footerContainer">
+        <a href="/home/alexis/Documentos/pagina-de-captura/index.html">Termos de Uso </a><span> | </span> 
+        <a href="/home/alexis/Documentos/pagina-de-captura/index.html">Considerações Importântes</a>
+      </div>
+
+      <div class="footerContainer">
+        <a href="/home/alexis/Documentos/pagina-de-captura/index.html">Políticas de Privacidade </a><span> | </span>
+        <a href="/home/alexis/Documentos/pagina-de-captura/index.html">Ouvidoria </a><span> | </span> 
+        <a href="/home/alexis/Documentos/pagina-de-captura/index.html">Contato</a>
+      </div>
+
+      <div id="copy">
+        <span>SOLARCYMCopyright&#169;2020.All Rights Reserved.</span>
+      </div>
+    </footer>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

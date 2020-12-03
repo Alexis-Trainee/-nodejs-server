@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(51, 57, 62, 1);
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+#container {
+    height: 540px;
+}
+
+h1 {
+    color: white;
+    font-size: 27px;
+}
+
+.economyPromise {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+span.economyPromise {
+    color:#FF8C00;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+#deadline {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#containerForm {
+    margin-top: 50px;
+}
+
+.register {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#unity {
+    margin-right: 317px;
+}
+
+.informationField {
+    height: 45px;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+select:invalid {
+    color: gray;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#contact {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.checkbox {
+    display: block;
+    width: 120px;
+    color: white;
+    text-align: initial;
+    margin: auto;
+    padding-left: 40px
+}
+
+#submit {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color:#FF8C00;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    text-shadow: 0 0 4px #fff;
+}
+
+footer {
+    background-color: rgb(58,58,58);
+    height: 100px;
+    margin-top: -16px;
+}
+
+.footerContainer {
+    text-align: center;
+    transform: translateY(10px);
+}
+
+a {
+    text-decoration: none;
+    color: #F8F8FF;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+span {
+    color: #F8F8FF;
+    font-size: 15px;
+}
+
+#copy {
+    text-align: center;
+    background-color: black;
+    margin-top: 23px;
+    height: 40px;
+}
+
+#copy span {
+    line-height: 40px;
+    font-size: 13px;
+}
